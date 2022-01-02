@@ -1,0 +1,24 @@
+#map{
+    height:1000px;
+    width: 100%;
+}
+
+.container{
+  display: none
+}
+
+
+.loader>div{
+  height:100px;
+  width:100px;
+  border:15px solid #ffffff;
+  border-top-color: #e67e22;
+  position: absolute;
+  margin:auto ;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:0;
+  border-radius:50%;
+  animation:spin 1.5s infinite linear
+}
